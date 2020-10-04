@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/styles/styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">
+             <a href="index.html">Age In Days</a>
+            <a href="Cat Generator.html">Cat Generator</a>
+            <a class="active" href="RPS.html">Rock, Paper, Scissors</a>
+            <a id="last" href="BlackJack.html">Black Jack</a>
+        </span>
+    </nav>
+
+    <div class="container-3">
+        <h2 class="display-4">Rock Paper Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" onclick="RPSgame(this)" src= "static/images/Rock.png" alt="">
+            <img id="scissors" onclick="RPSgame(this)" src="static/images/Scissors.png" alt="">
+            <img id="paper" onclick="RPSgame(this)" src="static/images/Paper.png" alt="">
+        </div>
+    </div>
+
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>

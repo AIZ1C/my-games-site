@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: center;
+}
+
+.header {
+    padding-top: 35px;
+}
+
+a {
+    color: rgb(46, 46, 46);
+    border-right: 1px solid rgba(112, 112, 112, 0.425);
+    border-image-outset: 15px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 2px 2px 30px #313131;
+}
+
+#last {
+    color: rgb(46, 46, 46);
+    border-image-outset: 15px;
+    border: 1px;
+    margin: 10px;
+}
+
+#last:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 2px 2px 30px #313131;
+}
+
+
+.active {
+    font-weight: 600;
+}
+
+
+
+.flex-box-container-1 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 110%;
+    margin: auto;
+}
+
+
+.container-2,
+.container-3,
+.container-5 {
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-rps-div,
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1 {
+    background: url('https://cdn.hipwallpaper.com/m/54/27/29Kck3.jpg') center;
+    background-size: 100%;
+    color: white;
+}
+
+.flex-blackjack-row-2 {
+    background-image: linear-gradient(to bottom, #660f0f, #5d0c16, #410d16, #250c11, #000000);
+    background-size: 100%;
+    color: white;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+    padding-top: 15px;
+
+}
+
+
+
+.flex-box-rps img {
+    width: 300px;
+
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 4px 10px 28px -12px rgba(0, 0, 0, 0.75);
+}

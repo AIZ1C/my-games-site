@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/styles/styles.css">
+    <title>Project</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">
+            <a class="active" href="index.html">Age In Days</a>
+            <a href="Cat Generator.html">Cat Generator</a>
+            <a href="RPS.html">Rock, Paper, Scissors</a>
+            <a id="last" href="BlackJack.html">Black Jack</a>
+        </span>
+    </nav>
+
+    <div class="container-1">
+        <h1 class="header">age in days</h1>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageindays()" ><h2>click me</h2></button>
+            </div>
+    
+            <div>
+                <button class="btn btn-danger" onclick="clean()"><h2>refresh</h2></button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
