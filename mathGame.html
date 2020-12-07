@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/styles/mathStyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/styles/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">
+            <a href="index.html">Age In Days</a>
+            <a href="Cat Generator.html">Cat Generator</a>
+            <a href="RPS.html">Rock, Paper, Scissors</a>
+            <a class="active" href="mathGame.html">Math Game</a>
+            <a id="last" href="dog.html">Dog Slideshow</a>
+
+        </span>
+    </nav>
+
+    <div class="main-ui">
+        <p class="problem h1 container" ></p>
+
+        <div class="sizer">
+            <form action="" class="our-form input-group">
+                <input type="text" class="our-field form-control" autocomplete="off" style="margin-left: 10px;">
+                <button class="btn btn-danger btn-outline-dark">Submit</button>
+            </form>
+        </div>
+
+        <p style="text-align: center">You need <span class="points-needed h3" style="color: rgb(71, 216, 71);">10</span> more points, and are allowed to make <span class="mistakes-allowed h3 text-danger">3</span> more mistakes</p>
+
+        <div class="progress1">
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="progress-inner"></div>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <div class="overlay-inner">
+            <p class="display-2 text-center end-message"></p>
+            <button class="reset-button1 btn btn-primary position-absolute top-80 left-50">Start Over</button>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">
+    </script>
+    <script src="./static/js/mathMain.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>

@@ -21,6 +21,7 @@ a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-shadow: 2px 2px 30px #313131;
+    transition: 200ms ease-in-out;
 }
 
 #last {

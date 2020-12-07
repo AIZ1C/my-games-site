@@ -113,13 +113,16 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
     let humanDiv = document.createElement("div")
     let botDiv = document.createElement("div")
     let messageDiv = document.createElement("div")
+    let refresh_button = document.createElement("div")
 
     humanDiv.innerHTML = "<img src='" + imageDataBase[humanImageChoice] + "' style='box-shadow: 0px 0px 38px 0px blue'>"
     messageDiv.innerHTML = "<h1 style='color: " + finalMessage['color'] + "; font-size: 60px; padding: 30px; '>" + finalMessage["message"] + "</h1>"
     botDiv.innerHTML = "<img src='" + imageDataBase[botImageChoice] + "' style='box-shadow: 0px 0px 38px 0px red'>"
+    refresh_button.innerHTML = `<button class="btn btn-primary btn-lg" onclick="window.location.reload()">Again</button>`
 
     document.getElementById("flex-box-rps-div").appendChild(humanDiv);
     document.getElementById("flex-box-rps-div").appendChild(messageDiv);
     document.getElementById("flex-box-rps-div").appendChild(botDiv);
+    document.getElementById("flex-box-rps-div").appendChild(refresh_button);
 
 }
